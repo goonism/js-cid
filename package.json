@@ -2,7 +2,7 @@
   "name": "cids",
   "version": "0.5.2",
   "description": "CID Implementation in JavaScript",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "scripts": {
 		"babel": "babel dist -d lib",
     "lint": "aegir lint",
