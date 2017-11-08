@@ -2,7 +2,7 @@
   "name": "cids",
   "version": "0.5.2",
   "description": "CID Implementation in JavaScript",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "lint": "aegir lint",
     "test": "aegir test",
@@ -41,6 +41,8 @@
   },
   "devDependencies": {
     "aegir": "^12.0.8",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "chai": "^4.1.2",
     "dirty-chai": "^2.0.1",
     "multihashing-async": "~0.4.6",
