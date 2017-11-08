@@ -4,6 +4,7 @@
   "description": "CID Implementation in JavaScript",
   "main": "dist/index.js",
   "scripts": {
+		"babel": "babel dist -d lib",
     "lint": "aegir lint",
     "test": "aegir test",
     "test:node": "aegir test --target node",
